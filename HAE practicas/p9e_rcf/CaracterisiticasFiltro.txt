@@ -1,0 +1,14 @@
+Selectivity:        Bandpass
+Approximation:      Butterworth
+Implementation:     IIR (digital)
+Passband gain (dB): -3,0
+Stopband gain (dB): -60,0
+PB freq-lower (Hz): 5900,0
+PB freq-upper (Hz): 6100,0
+SB freq-lower (Hz): 4733,4886546713
+SB freq-upper (Hz): 7500,0
+Sampling freq (Hz): 44100,0
+
+
+//Solo se escucha el pitido (6000Hz), bandas de transicion algo anchas para reducir las operaciones matematicas
+

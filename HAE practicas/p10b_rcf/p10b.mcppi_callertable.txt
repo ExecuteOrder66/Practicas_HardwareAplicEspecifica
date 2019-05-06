@@ -1,0 +1,4 @@
+main
+	SPI1_Init
+	convertir
+		SPI1_Write

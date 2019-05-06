@@ -1,0 +1,5 @@
+Falta mostrar bien la señal, encontrar problema en el codigo
+Valores osciloscopio
+	Channel A: 0.5 modoDC	
+	Horizontal: 50m
+	

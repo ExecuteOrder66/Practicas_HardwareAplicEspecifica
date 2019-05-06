@@ -1,0 +1,10 @@
+Selectivity:        Lowpass
+Approximation:      Butterworth
+Implementation:     IIR (digital)
+Passband gain (dB): -3,0
+Stopband gain (dB): -60,0
+Passband freq (Hz): 100,0
+Stopband freq (Hz): 5000,0
+Sampling freq (Hz): 44100,0
+
+/Solo se escuchan los graves de menos de 100Hz, no se escucha el pitido porque está en la banda prohibida(5000+Hz)

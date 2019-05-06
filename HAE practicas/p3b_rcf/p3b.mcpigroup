@@ -1,0 +1,8 @@
+[PROJECTS]
+Count=4
+Project0=..\p2_rcf\p2.mcppi
+Project1=..\p2_rcf\p3.mcppi
+Project2=..\p3_rcf\p3a.mcppi
+Project3=p3b.mcppi
+[ActiveProject]
+Index=3

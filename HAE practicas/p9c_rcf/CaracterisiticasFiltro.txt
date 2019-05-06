@@ -1,0 +1,13 @@
+Selectivity:        Highpass
+Approximation:      Butterworth
+Implementation:     IIR (digital)
+Passband gain (dB): -3,0
+Stopband gain (dB): -60,0
+Passband freq (Hz): 10000,0
+Stopband freq (Hz): 4000,0
+Sampling freq (Hz): 44100,0
+
+
+
+//Solo se escuchan sonidos desagradables y no entendibles (+ de 4096 Hz)
+//Pitido suena algo, pero atenuado por estar en la banda de transicion

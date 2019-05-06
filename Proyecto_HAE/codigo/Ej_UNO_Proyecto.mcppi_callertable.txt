@@ -1,0 +1,6 @@
+main
+	__CC2DW
+interrupt
+	abrir
+	parar
+	cerrar
