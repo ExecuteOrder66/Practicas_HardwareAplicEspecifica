@@ -1,4 +1,5 @@
 #line 1 "C:/Users/El Cido/Desktop/Practicas_HardwareAplicEspecifica/Proyecto_HAE/Ejercicio2/Ej2_emisor/emisor.c"
+
 char txt[14];
 float temper,volt;
 char *puntero;

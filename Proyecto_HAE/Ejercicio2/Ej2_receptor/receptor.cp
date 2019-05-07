@@ -1,4 +1,5 @@
 #line 1 "C:/Users/El Cido/Desktop/Practicas_HardwareAplicEspecifica/Proyecto_HAE/Ejercicio2/Ej2_receptor/receptor.c"
+
 char txt[14];
 unsigned out;
 int contador = 0;

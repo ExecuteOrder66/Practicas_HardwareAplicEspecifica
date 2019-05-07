@@ -1,3 +1,4 @@
+//EMISOR
 char txt[14];
 float temper,volt;
 char *puntero;

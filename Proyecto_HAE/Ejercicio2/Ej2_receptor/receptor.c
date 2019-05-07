@@ -1,3 +1,4 @@
+//RECEPTOR
 char txt[14];
 unsigned out;
 int contador = 0;
