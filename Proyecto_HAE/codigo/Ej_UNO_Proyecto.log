@@ -1,11 +1,11 @@
-0	1	mikroCPIC1618.exe -MSF -DBG -pP18F452 -DL -O11111114 -fo8 -N"C:\Users\El Cido\Desktop\Proyecto_HAE\codigo\Ej_UNO_Proyecto.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\El Cido\Desktop\Proyecto_HAE\codigo\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"C:\Users\El Cido\Desktop\Proyecto_HAE\codigo\" "Ej_UNO_Proyecto.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F452 -DL -O11111114 -fo8 -N"C:\Users\El Cido\Desktop\Practicas_HardwareAplicEspecifica\Proyecto_HAE\codigo\Ej_UNO_Proyecto.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\El Cido\Desktop\Practicas_HardwareAplicEspecifica\Proyecto_HAE\codigo\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -IP"C:\Users\El Cido\Desktop\Practicas_HardwareAplicEspecifica\Proyecto_HAE\codigo\" "Ej_UNO_Proyecto.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
 hint: 0	1139	Available RAM: 1515 [bytes], Available ROM: 32768 [bytes]	 
 diagnostics: 0	122	Compilation Started	Ej_UNO_Proyecto.c
-diagnostics: 118	123	Compiled Successfully	Ej_UNO_Proyecto.c
-diagnostics: 0	127	All files Compiled in 63 ms	 
+diagnostics: 120	123	Compiled Successfully	Ej_UNO_Proyecto.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
 hint: 0	1144	Used RAM (bytes): 5 (1%)  Free RAM (bytes): 1510 (99%)	Used RAM (bytes): 5 (1%)  Free RAM (bytes): 1510 (99%)
-hint: 0	1144	Used ROM (bytes): 240 (1%)  Free ROM (bytes): 32528 (99%)	Used ROM (bytes): 240 (1%)  Free ROM (bytes): 32528 (99%)
+hint: 0	1144	Used ROM (bytes): 244 (1%)  Free ROM (bytes): 32524 (99%)	Used ROM (bytes): 244 (1%)  Free ROM (bytes): 32524 (99%)
 diagnostics: 0	125	Project Linked Successfully	Ej_UNO_Proyecto.mcppi
-diagnostics: 0	128	Linked in 31 ms	 
-diagnostics: 0	129	Project 'Ej_UNO_Proyecto.mcppi' completed: 109 ms	 
-diagnostics: 0	103	Finished successfully: 06 May 2019, 17:29:20	Ej_UNO_Proyecto.mcppi
+diagnostics: 0	128	Linked in 62 ms	 
+diagnostics: 0	129	Project 'Ej_UNO_Proyecto.mcppi' completed: 172 ms	 
+diagnostics: 0	103	Finished successfully: 07 May 2019, 16:23:04	Ej_UNO_Proyecto.mcppi

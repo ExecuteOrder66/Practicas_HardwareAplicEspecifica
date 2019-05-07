@@ -1,4 +1,4 @@
-#line 1 "C:/Users/El Cido/Desktop/Proyecto_HAE/codigo/Ej_UNO_Proyecto.c"
+#line 1 "C:/Users/El Cido/Desktop/Practicas_HardwareAplicEspecifica/Proyecto_HAE/codigo/Ej_UNO_Proyecto.c"
 unsigned char estado = 0;
 unsigned char cerrada = 0;
 unsigned char abierta = 0;
@@ -45,7 +45,7 @@ void interrupt(){
  parar();
  estado=2;
  }
-#line 53 "C:/Users/El Cido/Desktop/Proyecto_HAE/codigo/Ej_UNO_Proyecto.c"
+#line 53 "C:/Users/El Cido/Desktop/Practicas_HardwareAplicEspecifica/Proyecto_HAE/codigo/Ej_UNO_Proyecto.c"
  }
 
  if(estado==2){
@@ -56,11 +56,13 @@ void interrupt(){
  }
  if(INTCON.TMR0IF){
  T0CON.TMR0ON=0;
- }
+ temporizador=0;
  if (presencia==0){
  cerrar();
  estado=3;
  }
+ }
+
 
  }
 
@@ -70,7 +72,7 @@ void interrupt(){
  parar();
  estado=0;
  }
-#line 83 "C:/Users/El Cido/Desktop/Proyecto_HAE/codigo/Ej_UNO_Proyecto.c"
+#line 85 "C:/Users/El Cido/Desktop/Practicas_HardwareAplicEspecifica/Proyecto_HAE/codigo/Ej_UNO_Proyecto.c"
  }
 
  }

@@ -60,11 +60,13 @@ void interrupt(){
       }
       if(INTCON.TMR0IF){      //Se acaba la temporizacion
             T0CON.TMR0ON=0;   //Apagamos contador
+            temporizador=0;
+            if (presencia==0){  //No se detecta presencia
+               cerrar();        //Pasamos al estado cerrandose
+               estado=3;
+            }
       }
-      if (presencia==0){
-      cerrar();
-      estado=3;
-      }
+
 
     }
 
