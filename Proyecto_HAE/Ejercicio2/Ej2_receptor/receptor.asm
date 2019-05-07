@@ -5,7 +5,7 @@ _interrupt:
 ;receptor.c,24 :: 		if(PIR1.RCIF){
 	BTFSS       PIR1+0, 5 
 	GOTO        L_interrupt0
-;receptor.c,25 :: 		*(puntero+contador)=UART1_READ();
+;receptor.c,25 :: 		*(puntero+contador)=UART1_READ();   //Leemos el byte recibido (seran 4)
 	MOVF        _contador+0, 0 
 	ADDWF       _puntero+0, 0 
 	MOVWF       FLOC__interrupt+0 
@@ -66,7 +66,7 @@ L__interrupt7:
 	MOVLW       67
 	MOVWF       FARG_Lcd_Chr_CP_out_char+0 
 	CALL        _Lcd_Chr_CP+0, 0
-;receptor.c,34 :: 		contador=0;
+;receptor.c,34 :: 		contador=0;       //reiniciamos valor contador a 0
 	CLRF        _contador+0 
 	CLRF        _contador+1 
 ;receptor.c,35 :: 		}

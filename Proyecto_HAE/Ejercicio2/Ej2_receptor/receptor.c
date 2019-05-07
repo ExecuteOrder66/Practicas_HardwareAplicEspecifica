@@ -22,7 +22,7 @@ sbit LCD_D4_Direction at TRISB4_bit;
 void interrupt(){
 
         if(PIR1.RCIF){
-              *(puntero+contador)=UART1_READ();
+              *(puntero+contador)=UART1_READ();   //Leemos el byte recibido (seran 4)
               contador++;
               //Si el contador llega a 4 quiere decir que se han recibido los 4 bytes de datos
               if(contador==4){
@@ -31,7 +31,7 @@ void interrupt(){
                       lcd_out(1,1,txt);
                       Lcd_Chr_cp(223);
                       Lcd_Chr_cp('C');
-                      contador=0;
+                      contador=0;       //reiniciamos valor contador a 0
                }
                PIR1.RCIF=0;
          }
